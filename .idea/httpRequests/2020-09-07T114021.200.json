@@ -1,0 +1,46 @@
+{
+  "process": [
+    {
+      "checktype": "断路器220KV侧",
+      "code": "1001",
+      "humidity": 494.0,
+      "patrolName": "1011GK-B-设备",
+      "patrolPlanID": 116,
+      "patrolResult": 0,
+      "patrolShow": "",
+      "patrolTime": "2020-08-24 13:54:53",
+      "saveDataPath": "E:/Qt巡检机器人/02_巡检图片/避雷器/1BL/1BLA-放电计数器/20180326111505.jpg",
+      "temperature": 31.2
+    },
+    {
+      "checktype": "断路器220KV侧",
+      "code": "1001",
+      "humidity": 467.0,
+      "patrolName": "101YH-A",
+      "patrolPlanID": 116,
+      "patrolResult": 0,
+      "patrolShow": "",
+      "patrolTime": "2020-08-24 13:55:07",
+      "saveDataPath": "E:/Qt巡检机器人/02_巡检图片/避雷器/1BL/1BLA-放电计数器/20180406151526.jpg",
+      "temperature": 31.2
+    }
+  ],
+  "result": {
+    "code": "1001",
+    "id": 116,
+    "planEndTime": "2020-09-23 17:28:06",
+    "planName": "0037",
+    "planStartTime": "2020-09-01 17:28:03"
+  },
+  "seqList": [
+    {
+      "presetCode": "64",
+      "seq": "2"
+    },
+    {
+      "presetCode": "61",
+      "seq": "1"
+    }
+  ],
+  "status": 0
+}

@@ -1,0 +1,456 @@
+POST https://localhost:8989/getActivityRange/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-17T120116.200.json
+
+###
+
+POST https://localhost:8989/getCurrentPosition/
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST https://localhost:8989/getCurrentPosition/
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST https://localhost:8989/getActivityRange/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-08T115317.200.json
+
+###
+
+POST https://localhost:8989/call/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-07T115022.200.json
+
+###
+
+POST https://localhost:8989/callTaskResult/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-07T115004.200.json
+
+###
+
+POST https://localhost:8989/call/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-07T114730.200.json
+
+###
+
+POST https://localhost:8989/call/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-07T114633.200.json
+
+###
+
+POST https://localhost:8989/call/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-07T114306.200.json
+
+###
+
+POST https://localhost:8989/call/
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST https://localhost:8989/call/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-07T114021.200.json
+
+###
+
+POST https://localhost:8989/downloadTempTask/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0234","code":"12345","subName":"Guan","cards":[{"seq":"1","camName":"11","presetCode":"53"},{"seq":"2","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-05T124306.200.json
+
+###
+
+POST https://localhost:8989/downloadTempTask/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"052","code":"1000","subName":"Guan","cards":[{"seq":"1","camName":"11","presetCode":"53"},{"seq":"2","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-05T124127.200.json
+
+###
+
+POST https://localhost:8989/downloadTempTask/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"051","code":"1000","subName":"Guan","cards":[{"seq":"1","camName":"11","presetCode":"53"},{"seq":"2","camName":"11","presetCode":"61"}]}
+
+###
+
+POST https://localhost:8989/downloadTempTask/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"050","code":"1000","subName":"Guan","cards":[{"seq":"1","camName":"11","presetCode":"53"},{"seq":"2","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-05T123841.200.json
+
+###
+
+POST https://localhost:8989/downloadTempTask/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"059","code":"1000","subName":"Guan","cards":[{"seq":"1","camName":"11","presetCode":"53"},{"seq":"2","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-05T123550.200.json
+
+###
+
+POST https://localhost:8989/downloadTempTask/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0029","code":"1000","subName":"Guan","cards":[{"seq":"1","camName":"11","presetCode":"53"},{"seq":"2","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-05T123456.200.json
+
+###
+
+POST https://localhost:8989/downloadTempTask/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0029","code":"1000","subName":"Guan","cards":[{"seq":"1","camName":"11","presetCode":"53"},{"seq":"2","camName":"11","presetCode":"61"}]}
+
+###
+
+POST https://localhost:8989/downloadTempTask/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0029","code":"1000","subName":"Guan","cards":[{"seq":"1","camName":"11","presetCode":"53"},{"seq":"2","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-05T123215.200.json
+
+###
+
+POST https://localhost:8989/downloadTempTask/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0019","code":"1000","subName":"Guan","cards":[{"seq":"1","camName":"11","presetCode":"53"},{"seq":"2","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-05T123120.200.json
+
+###
+
+POST https://localhost:8989/downloadTempTask/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0019","code":"1000","subName":"Guan","cards":[{"seq":"1","camName":"11","presetCode":"53"},{"seq":"2","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-05T122956.200.json
+
+###
+
+POST https://localhost:8989/downloadTempTask/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0019","code":"1000","subName":"Guan","cards":[{"seq":"1","camName":"11","presetCode":"53"},{"seq":"2","camName":"11","presetCode":"61"}]}
+
+###
+
+POST https://localhost:8989/downloadTempTask/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0008","code":"1000","subName":"Guan","cards":[{"seq":"1","camName":"11","presetCode":"53"},{"seq":"1","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-05T122246.200.json
+
+###
+
+POST https://localhost:8989/downloadTempTask/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0007","code":"1000","subName":"Guan","cards":[{"seq":"1","camName":"11","presetCode":"53"},{"seq":"1","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-05T121930.200.json
+
+###
+
+POST https://localhost:8989/downloadPlan/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0001","code":"1000","subName":"Guan","weeks":"1-7","startDate":"","startTime":"15:30","cards":[{"seq":"1","camName":"11","presetCode":"53"},{"seq":"1","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-05T121745.200.json
+
+###
+
+POST https://localhost:8989/getActivityRange/
+Accept: */*
+Cache-Control: no-cache
+
+{"type":"1"}
+
+<> 2020-09-05T112120.200.json
+
+###
+
+POST https://localhost:8989/status/
+Accept: */*
+Cache-Control: no-cache
+
+{"type":"1"}
+
+<> 2020-09-05T111945.200.json
+
+###
+
+POST https://localhost:8989/status/
+Accept: */*
+Cache-Control: no-cache
+
+{"type":"1"}
+
+###
+
+POST https://localhost:8989/status/
+Accept: */*
+Cache-Control: no-cache
+
+{"type":"1"}
+
+###
+
+POST https://localhost:8989/status/
+Accept: */*
+Cache-Control: no-cache
+
+{"type":"1"}
+
+<> 2020-09-05T111621.200.json
+
+###
+
+POST https://localhost:8989/status/
+Accept: */*
+Cache-Control: no-cache
+
+{"type":"1"}
+
+###
+
+POST https://localhost:8989/status/
+Accept: */*
+Cache-Control: no-cache
+
+{"type":"1"}
+
+###
+
+POST https://localhost:8989/status/
+Accept: */*
+Cache-Control: no-cache
+
+{"type":"1"}
+
+###
+
+POST https://localhost:8989/status/
+Accept: */*
+Cache-Control: no-cache
+
+{"type":"4"}
+
+<> 2020-09-05T111433.200.json
+
+###
+
+POST https://localhost:8989/status/
+Accept: */*
+Cache-Control: no-cache
+
+{"type":"3"}
+
+<> 2020-09-05T111424.200.json
+
+###
+
+POST https://localhost:8989/status/
+Accept: */*
+Cache-Control: no-cache
+
+{"type":"1"}
+
+<> 2020-09-05T111310.200.json
+
+###
+
+POST https://localhost:8989/planctrl/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0079","code":"1000","opt":"end"}
+
+<> 2020-09-05T111057.200.json
+
+###
+
+POST https://localhost:8989/planctrl/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0079","code":"1000","opt":"end"}
+
+<> 2020-09-05T110331.200.json
+
+###
+
+POST https://localhost:8989/currplanctrl/2/
+Accept: */*
+Cache-Control: no-cache
+
+{"planName":"0078"}
+
+<> 2020-09-05T110115.200.json
+
+###
+
+POST https://localhost:8989/currplanctrl/-1/
+Accept: */*
+Cache-Control: no-cache
+
+{"planName":"0078"}
+
+<> 2020-09-05T110104.200.json
+
+###
+
+POST https://localhost:8989/currplanctrl/0/
+Accept: */*
+Cache-Control: no-cache
+
+{"planName":"0078"}
+
+<> 2020-09-05T110100.200.json
+
+###
+
+POST https://localhost:8989/currplanctrl/1/
+Accept: */*
+Cache-Control: no-cache
+
+{"planName":"0078"}
+
+<> 2020-09-05T110054.200.json
+
+###
+
+POST https://localhost:8989/delete/task/
+Accept: */*
+Cache-Control: no-cache
+
+{"planName":"0078"}
+
+<> 2020-09-05T105929.200.json
+
+###
+
+POST https://localhost:8989/delete/task/
+Accept: */*
+Cache-Control: no-cache
+
+{"planName":"136"}
+
+<> 2020-09-05T105852.200.json
+
+###
+
+POST https://localhost:8989//upload/update//
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0079","code":"1000","subName":"Guan","cards":[{"seq":"1","camName":"11","presetCode":"58"},{"seq":"1","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-05T105742.200.json
+
+###
+
+POST https://localhost:8989/downloadTempTask/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0079","code":"1000","subName":"Guan","cards":[{"seq":"1","camName":"11","presetCode":"58"},{"seq":"1","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-05T104442.200.json
+
+###
+
+POST https://localhost:8989/downloadTempTask/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0078","code":"1000","subName":"Guan","cards":[{"seq":"1","camName":"11","presetCode":"58"},{"seq":"1","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-05T104344.200.json
+
+###
+
+POST https://localhost:8989/downloadPlan/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0078","code":"1000","subName":"Guan","weeks":"1-7","startDate":"","startTime":"15:30","cards":[{"seq":"1","camName":"11","presetCode":"58"},{"seq":"1","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-04T061149.200.json
+
+###
+
+POST https://localhost:8989/downloadPlan/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0078","code":"1000","subName":"Guan","weeks":"1-7","startDate":"","startTime":"15:30","cards":[{"seq":"1","camName":"11","presetCode":"58"},{"seq":"1","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-04T060950.200.json
+
+###
+
+POST https://localhost:8989/downloadPlan/
+Accept: */*
+Cache-Control: no-cache
+
+{"name":"0078","code":"1000","subName":"Guan","weeks":"1-7","startDate":"","startTime":"15:30","cards":[{"seq":"1","camName":"11","presetCode":"58"},{"seq":"1","camName":"11","presetCode":"61"}]}
+
+<> 2020-09-04T060744.200.json
+
+###
+

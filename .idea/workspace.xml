@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91b13bdf-0989-447e-8ba5-26532f7b36e8" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eyYkr5EY7X5EI259d2i5cDpHbJ" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/GADBDS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Qt巡检机器人\Hyflux_img" />
+      <recent name="E:\Qt巡检机器人\TornadoTemplate" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Qt巡检机器人\QT\布局" />
+      <recent name="E:\Qt巡检机器人\Hyflux\DAL" />
+      <recent name="E:\Qt巡检机器人\Hyflux\models" />
+      <recent name="E:\Qt巡检机器人\Hyflux\param" />
+      <recent name="E:\Qt巡检机器人\Hyflux\config" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/getActivityRange/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/call/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0234&quot;,&quot;code&quot;:&quot;12345&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/callTaskResult/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0234&quot;,&quot;code&quot;:&quot;12345&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0234&quot;,&quot;code&quot;:&quot;12345&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;052&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;050&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;059&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0029&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0019&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0008&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0007&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadPlan/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0001&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;weeks&quot;:&quot;1-7&quot;,&quot;startDate&quot;:&quot;&quot;,&quot;startTime&quot;:&quot;15:30&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/getActivityRange/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;type&quot;:&quot;1&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/status/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;type&quot;:&quot;1&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/status/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;type&quot;:&quot;4&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/status/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;type&quot;:&quot;3&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/planctrl/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0079&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;opt&quot;:&quot;end&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/currplanctrl/2/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;:&quot;0078&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/currplanctrl/-1/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;:&quot;0078&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/currplanctrl/0/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;:&quot;0078&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/currplanctrl/1/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;:&quot;0078&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/delete/task/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;:&quot;0078&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/delete/task/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;:&quot;136&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="//upload/update//" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0079&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;58&quot;},{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0079&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;58&quot;},{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0078&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;58&quot;},{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadPlan/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0078&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;weeks&quot;:&quot;1-7&quot;,&quot;startDate&quot;:&quot;&quot;,&quot;startTime&quot;:&quot;15:30&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;58&quot;},{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadPlan/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0001&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;weeks&quot;:&quot;1-7&quot;,&quot;startDate&quot;:&quot;&quot;,&quot;startTime&quot;:&quot;15:30&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;58&quot;},{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/progress/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/result/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/result/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0037&quot;,&quot;code&quot;:&quot;1002&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;64&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/getActivityRange/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0037&quot;,&quot;code&quot;:&quot;1002&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;64&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/progress/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0037&quot;,&quot;code&quot;:&quot;1002&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;64&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0037&quot;,&quot;code&quot;:&quot;1002&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;64&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0036&quot;,&quot;code&quot;:&quot;1002&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;64&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0035&quot;,&quot;code&quot;:&quot;1002&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;64&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0034&quot;,&quot;code&quot;:&quot;1002&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;64&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0033&quot;,&quot;code&quot;:&quot;1002&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;64&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0032&quot;,&quot;code&quot;:&quot;1002&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;64&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0031&quot;,&quot;code&quot;:&quot;1002&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;64&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0030&quot;,&quot;code&quot;:&quot;1002&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;64&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0039&quot;,&quot;code&quot;:&quot;1002&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;64&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0029&quot;,&quot;code&quot;:&quot;1002&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0019&quot;,&quot;code&quot;:&quot;1002&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0009&quot;,&quot;code&quot;:&quot;1002&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;2&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0009&quot;,&quot;code&quot;:&quot;1002&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0008&quot;,&quot;code&quot;:&quot;1001&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST[]" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadTempTask/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0007&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadPlan/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0007&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadPlan/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0005&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;weeks&quot;:&quot;4,6&quot;,&quot;startDate&quot;:&quot;&quot;,&quot;startTime&quot;:&quot;18:20&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:8989" />
+          <option name="urlPath" value="/downloadPlan/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;0004&quot;,&quot;code&quot;:&quot;1000&quot;,&quot;subName&quot;:&quot;Guan&quot;,&quot;weeks&quot;:&quot;2,3&quot;,&quot;startDate&quot;:&quot;&quot;,&quot;startTime&quot;:&quot;18:20&quot;,&quot;cards&quot;:[{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;53&quot;},{&quot;seq&quot;:&quot;1&quot;,&quot;camName&quot;:&quot;11&quot;,&quot;presetCode&quot;:&quot;61&quot;}]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.requestclient">
+    <configuration name="10.验证器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="QT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../QT/基本控件" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../QT/基本控件/10.验证器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="8.QLable快捷键" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="QT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../QT/基本控件" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../QT/基本控件/8.QLable快捷键.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9.单行文本输入" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="QT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../QT/基本控件" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../QT/基本控件/9.单行文本输入.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="requestclient" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Net_Comm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Hyflux" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Hyflux/requestclient.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tornadoserver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Net_Comm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Hyflux" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Hyflux/tornadoserver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.8.QLable快捷键" />
+      <item itemvalue="Python.9.单行文本输入" />
+      <item itemvalue="Python.10.验证器" />
+      <item itemvalue="Python.tornadoserver" />
+      <item itemvalue="Python.requestclient" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.requestclient" />
+        <item itemvalue="Python.tornadoserver" />
+        <item itemvalue="Python.10.验证器" />
+        <item itemvalue="Python.9.单行文本输入" />
+        <item itemvalue="Python.8.QLable快捷键" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91b13bdf-0989-447e-8ba5-26532f7b36e8" name="Default Changelist" comment="" />
+      <created>1595295445762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595295445762</updated>
+      <workItem from="1595295447336" duration="25000" />
+      <workItem from="1595295508893" duration="35400000" />
+      <workItem from="1595466044883" duration="10748000" />
+      <workItem from="1595552371842" duration="17283000" />
+      <workItem from="1595813000902" duration="34858000" />
+      <workItem from="1595984622706" duration="30535000" />
+      <workItem from="1596095599341" duration="29278000" />
+      <workItem from="1596415476535" duration="1320000" />
+      <workItem from="1596419860086" duration="13682000" />
+      <workItem from="1596503975665" duration="11821000" />
+      <workItem from="1597805679932" duration="1909000" />
+      <workItem from="1597885317304" duration="22911000" />
+      <workItem from="1598055687363" duration="139422000" />
+      <workItem from="1598836125278" duration="45774000" />
+      <workItem from="1599008425502" duration="73025000" />
+      <workItem from="1599441278449" duration="3820000" />
+      <workItem from="1599447570619" duration="1866000" />
+      <workItem from="1599449484980" duration="3573000" />
+      <workItem from="1599527456062" duration="2312000" />
+      <workItem from="1599532821112" duration="4081000" />
+      <workItem from="1599557135105" duration="84000" />
+      <workItem from="1599641395620" duration="326000" />
+      <workItem from="1599703385961" duration="333000" />
+      <workItem from="1599703752079" duration="14103000" />
+      <workItem from="1599726776824" duration="1025000" />
+      <workItem from="1599728333941" duration="3344000" />
+      <workItem from="1599734396304" duration="346000" />
+      <workItem from="1599735132511" duration="981000" />
+      <workItem from="1599736517776" duration="809000" />
+      <workItem from="1599786087165" duration="10414000" />
+      <workItem from="1600044327978" duration="654000" />
+      <workItem from="1600052998509" duration="27553000" />
+      <workItem from="1600222250078" duration="8235000" />
+      <workItem from="1600305657860" duration="3793000" />
+      <workItem from="1600312764893" duration="5406000" />
+      <workItem from="1600327079377" duration="4027000" />
+      <workItem from="1600333654580" duration="1676000" />
+      <workItem from="1600390916921" duration="2738000" />
+      <workItem from="1600393743049" duration="3867000" />
+      <workItem from="1600650603060" duration="1453000" />
+      <workItem from="1600824455922" duration="667000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tornado$tornadoserver.coverage" NAME="tornadoserver Coverage Results" MODIFIED="1600333843115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Hyflux" />
+    <SUITE FILE_PATH="coverage/tornado$text.coverage" NAME="text Coverage Results" MODIFIED="1596186192824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tornado$1_.coverage" NAME="1.绝对布局 Coverage Results" MODIFIED="1600064851737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT" />
+    <SUITE FILE_PATH="coverage/tornado$8_.coverage" NAME="8.网格布局 Coverage Results" MODIFIED="1600070174814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT" />
+    <SUITE FILE_PATH="coverage/tornado$7_lable.coverage" NAME="7.lable标签 Coverage Results" MODIFIED="1600159580594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT/基本控件" />
+    <SUITE FILE_PATH="coverage/tornado$sync01.coverage" NAME="sync01 Coverage Results" MODIFIED="1595933195894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../TornadaChart" />
+    <SUITE FILE_PATH="coverage/tornado$12_QSplitter.coverage" NAME="12.QSplitter分割窗口案例 Coverage Results" MODIFIED="1600133933983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT" />
+    <SUITE FILE_PATH="coverage/tornado$tornadoserver__1_.coverage" NAME="tornadoserver (1) Coverage Results" MODIFIED="1596096728389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Hyflux" />
+    <SUITE FILE_PATH="coverage/tornado$1_QMainWindow.coverage" NAME="1.QMainWindow Coverage Results" MODIFIED="1600136451496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT/基本控件" />
+    <SUITE FILE_PATH="coverage/tornado$firstExc.coverage" NAME="firstExc Coverage Results" MODIFIED="1599792825199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT" />
+    <SUITE FILE_PATH="coverage/tornado$async02.coverage" NAME="async02 Coverage Results" MODIFIED="1595945290272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../TornadaChart" />
+    <SUITE FILE_PATH="coverage/tornado$11_.coverage" NAME="11.在控件中布局 Coverage Results" MODIFIED="1600132770538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT" />
+    <SUITE FILE_PATH="coverage/tornado$5_.coverage" NAME="5.屏幕坐标系案例 Coverage Results" MODIFIED="1600153400481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT/基本控件" />
+    <SUITE FILE_PATH="coverage/tornado$mysql_study.coverage" NAME="mysql_study Coverage Results" MODIFIED="1599272701674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/PyProject/14MySQL" />
+    <SUITE FILE_PATH="coverage/tornado$tornadohttpsmod.coverage" NAME="tornadohttpsmod Coverage Results" MODIFIED="1596100714080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Net_Comm" />
+    <SUITE FILE_PATH="coverage/tornado$async05.coverage" NAME="async05 Coverage Results" MODIFIED="1595946906541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../TornadaChart" />
+    <SUITE FILE_PATH="coverage/tornado$3_.coverage" NAME="3.关闭窗口案例 Coverage Results" MODIFIED="1600138399783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT/基本控件" />
+    <SUITE FILE_PATH="coverage/tornado$9_.coverage" NAME="9.单行文本输入 Coverage Results" MODIFIED="1600219559764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT/基本控件" />
+    <SUITE FILE_PATH="coverage/tornado$2_QMainWindow.coverage" NAME="2.QMainWindow居中 Coverage Results" MODIFIED="1600137220970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT/基本控件" />
+    <SUITE FILE_PATH="coverage/tornado$requestclient.coverage" NAME="requestclient Coverage Results" MODIFIED="1600335254499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Hyflux" />
+    <SUITE FILE_PATH="coverage/tornado$async03.coverage" NAME="async03 Coverage Results" MODIFIED="1595945469310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../TornadaChart" />
+    <SUITE FILE_PATH="coverage/tornado$8_QLable.coverage" NAME="8.QLable快捷键 Coverage Results" MODIFIED="1600159676110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT/基本控件" />
+    <SUITE FILE_PATH="coverage/tornado$2_.coverage" NAME="2.水平布局 Coverage Results" MODIFIED="1600065615335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT" />
+    <SUITE FILE_PATH="coverage/tornado$7_.coverage" NAME="7.网格布局 Coverage Results" MODIFIED="1600069231405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT" />
+    <SUITE FILE_PATH="coverage/tornado$demo_request.coverage" NAME="demo_request Coverage Results" MODIFIED="1596204947680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tornado$first.coverage" NAME="first Coverage Results" MODIFIED="1599790851788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT" />
+    <SUITE FILE_PATH="coverage/tornado$Flask_____Net_Comm_app_py_.coverage" NAME="Flask (../Net_Comm/app.py) Coverage Results" MODIFIED="1596092053384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tornado$first2.coverage" NAME="first2 Coverage Results" MODIFIED="1599794312968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT" />
+    <SUITE FILE_PATH="coverage/tornado$4_.coverage" NAME="4.垂直布局 Coverage Results" MODIFIED="1600066058779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT" />
+    <SUITE FILE_PATH="coverage/tornado$6_.coverage" NAME="6.气泡提示 Coverage Results" MODIFIED="1600153415687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT/基本控件" />
+    <SUITE FILE_PATH="coverage/tornado$async04.coverage" NAME="async04 Coverage Results" MODIFIED="1595946208169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../TornadaChart" />
+    <SUITE FILE_PATH="coverage/tornado$10_.coverage" NAME="10.验证器 Coverage Results" MODIFIED="1600307488228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../QT/基本控件" />
+  </component>
+</project>

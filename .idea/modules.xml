@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Hyflux/.idea/Net_Comm.iml" filepath="$PROJECT_DIR$/../Hyflux/.idea/Net_Comm.iml" />
+      <module fileurl="file://E:/PyProject/.idea/PyProject.iml" filepath="E:/PyProject/.idea/PyProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../QT/.idea/QT.iml" filepath="$PROJECT_DIR$/../QT/.idea/QT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TornadaChart/.idea/TornadaChart.iml" filepath="$PROJECT_DIR$/../TornadaChart/.idea/TornadaChart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TornadoTemplate/.idea/TornadoTemplate.iml" filepath="$PROJECT_DIR$/../TornadoTemplate/.idea/TornadoTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tornado.iml" filepath="$PROJECT_DIR$/.idea/tornado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../接口示例/.idea/接口示例.iml" filepath="$PROJECT_DIR$/../接口示例/.idea/接口示例.iml" />
+    </modules>
+  </component>
+</project>
